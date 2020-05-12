@@ -8,7 +8,7 @@ public class FirstClass {
 
     @Test
     public void test00003() {
-        String messageOne ="String for method 00003!";
+        String messageOne ="String for method 00003!!";
 
         String messageTwo = "string two two!";
 
