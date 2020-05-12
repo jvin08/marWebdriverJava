@@ -10,7 +10,7 @@ public class FirstClass {
     public void test00003() {
         String messageOne ="String for method 00003";
 
-        String messageTwo = "string two two";
+        String messageTwo = "string two two!";
 
         String messageThree = messageOne + messageTwo;
 
@@ -50,11 +50,10 @@ public class FirstClass {
     @Test
     public void test006() {
         System.out.println("test006");
-        int a = 5;
+        int a = 4;
 
-        if (a == 4) {
-            System.out.println("Ohhh! So a is four!");
-        } else {
+        if (a == 4) System.out.println("Ohhh! So a is four!");
+        else {
             System.out.println("A IS NOT EQUAL TO 4");
         }
     }
