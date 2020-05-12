@@ -8,7 +8,7 @@ public class FirstClass {
 
     @Test
     public void test00003() {
-        String messageOne ="String for method 00003!!!";
+        String messageOne ="String for method 00003";
 
         String messageTwo = "string two two!";
 
@@ -30,10 +30,9 @@ public class FirstClass {
         boolean toBe = false;
 
         boolean b = true;
-        if (b) {
+        if (b == false) System.out.println(!toBe);
+        else {
             System.out.println(toBe);
-        } else {
-            System.out.println(!toBe);
         }
 
         int children = 0;
