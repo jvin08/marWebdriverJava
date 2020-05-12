@@ -31,9 +31,9 @@ public class FirstClass {
 
         boolean b = true;
         if (b) {
-            System.out.println(!toBe);
-        } else {
             System.out.println(toBe);
+        } else {
+            System.out.println(!toBe);
         }
 
         int children = 0;
@@ -53,7 +53,7 @@ public class FirstClass {
         int a = 5;
 
         if (a == 4) {
-            System.out.println("Ohhh! So a is 4!");
+            System.out.println("Ohhh! So a is four!");
         } else {
             System.out.println("A IS NOT EQUAL TO 4");
         }
