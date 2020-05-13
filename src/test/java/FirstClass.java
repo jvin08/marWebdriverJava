@@ -51,7 +51,7 @@ public class FirstClass {
         System.out.println("test006");
         int a = 4;
 
-        if (a == 4) System.out.println("Ohhh! So a is four!");
+        if (a == 4) System.out.println("Ohhh! So a is four!!!");
         else {
             System.out.println("A IS NOT EQUAL TO 4");
         }
