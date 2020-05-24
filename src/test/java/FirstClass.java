@@ -118,9 +118,9 @@ public class FirstClass {
 
     @Test
     public void test_swap_Exception() {
-        int[] input = {1, 2, 3, 4, 5, 6};
-        int indexL = -1;
-        int indexR = 4;
+        int[] input = {};
+        int indexL = 0;
+        int indexR = 0;
 
         checkInputs(input, indexL, indexR);
         swap(input, indexL, indexR);
@@ -129,9 +129,12 @@ public class FirstClass {
 
     //TODO: add checks for input array
     private void checkInputs(int[] input, int indexL, int indexR) {
+
         if (indexL >= 0 && indexL < input.length && indexR >= 0 && indexR < input.length) {
             System.out.println("Inputs are OK");
 
+        } else if (input.length == 0) {
+            System.out.println("array is empty");
         } else {
             throw new AssertionError("Inputs are NOT OK: indexL=" + indexL + ", indexR=" + indexR);
         }

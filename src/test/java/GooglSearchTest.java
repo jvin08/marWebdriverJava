@@ -57,7 +57,7 @@ public class GooglSearchTest {
             String amountOfResults = stringsArray[1].replace(",", "");
 
             return Integer.parseInt(amountOfResults);
-
+            //the end
 
 
         }
